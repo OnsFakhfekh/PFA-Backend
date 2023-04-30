@@ -10,8 +10,8 @@ const patientSchema = new mongoose.Schema({
     Genre : {type: String, required:true},
    // type : {type: String, required:true},
     code :{type: String, required:true},
-    image: {type: String , required:true},
-    allDoctors: [{type: mongoose.Schema.Types.ObjectId, ref: 'doctors'}],
+    //image: {type: String , required:true},
+   // allDoctors: [{type: mongoose.Schema.Types.ObjectId, ref: 'doctors'}],
 }, {timestamps: true});
 //Le modèle permet d'effectuer des opérations CRUD (Create, Read, Update, Delete) 
 //sur la collection Doctor dans la base de données MongoDB.
